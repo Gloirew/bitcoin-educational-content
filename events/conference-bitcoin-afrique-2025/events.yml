@@ -1,0 +1,21 @@
+start_date: 2025-04-25
+end_date: 2025-04-27
+address_line_1: Douala, Akwa, Cameroon
+address_line_2: 
+address_line_3: 
+name: Conference Bitcoin Afrique 2025
+builder: Conference Bitcoin Afrique
+type: conference
+book_online: false
+book_in_person: false
+price_dollars: 20
+description: Promoting adoption, education, and Bitcoin Innovation for financial inclusion in Africa
+language: fr
+links:
+  website: https://afriquebitcoin.org/
+  replay_url:
+  live_url :
+tags: 
+  - Bitcoin
+  - Africa
+  - Conference
