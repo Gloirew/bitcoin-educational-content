@@ -27,7 +27,7 @@ Vous n'avez besoin d'aucune connaissance spécifique pour commencer. En effet, l
 
 ### Bienvenue dans un nouveau paradigme monétaire et technologique.
 
-Le bitcoin est une révolution technologique et monétaire, capable de nous faire remettre en question notre rapport à l'argent et à la société. En effet, le bitcoin (appelé BTC) est une monnaie **neutre** et **décentralisée**, c'est-à-dire qu'elle n'est contrôlée par aucune entité ou institution. C'est une innovation qui va au-delà d'une simple "monnaie internet" : c'est à la fois un protocole informatique (le bitcoin) et une unité monétaire (le bitcoin).
+Le bitcoin est une révolution technologique et monétaire, capable de nous faire remettre en question notre rapport à l'argent et à la société. En effet, le bitcoin (appelé BTC) est une monnaie **neutre** et **décentralisée**, c'est-à-dire qu'elle n'est contrôlée par aucune entité ou institution. C'est une innovation qui va au-delà d'une simple "monnaie internet" : c'est à la fois un protocole informatique (le Bitcoin) et une unité monétaire (le bitcoin).
 
 Le protocole utilise des technologies sous-jacentes telles que la cryptographie, la communication en réseau et la fameuse "blockchain", tandis que l'unité bitcoin sert de monnaie nécessaire au bon fonctionnement de ce protocole. Dans la vie de tous les jours, les Salvadoriens et les bitcoiners du monde entier utilisent la monnaie bitcoin pour acheter et vendre des biens et des services, comptant sur cette technologie pour améliorer leur vie.
 
