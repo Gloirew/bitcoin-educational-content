@@ -189,7 +189,7 @@ Pour mieux expliquer ce concept, nous allons explorer les caractéristiques d'un
 
 ![image](assets/en/11.webp)
 
-- Fongibilité\*\*, c'est-à-dire qu'il est interchangeable avec une autre unité de même nature sans perte de valeur ;
+- Fongibilité**, c'est-à-dire qu'il est interchangeable avec une autre unité de même nature sans perte de valeur ;
 - Divisibilité\*\*, car il peut être divisé en unités plus petites pour faciliter les transactions de volumes variables ;
 - Liquidité\*\*, ce qui signifie qu'il est facilement convertible en biens ou en services.
 
@@ -236,7 +236,7 @@ Lorsqu'elle est bien exécutée, cette stratégie peut durer des décennies. Cep
 
 À terme, la monnaie peut ne plus avoir de lien avec l'or, comme les pièces romaines à la fin de l'Empire, voire être réduite à une simple valeur numérique, déconnectée de la réalité tangible.
 
-Nous assistons aujourd'hui à un tournant historique. Le dollar, qui a longtemps dominé, semble être en déclin, tandis que l'or a perdu son rôle central. Nous sommes au seuil d'un nouveau cycle monétaire, qui nous rappelle que les leçons de l'histoire sont souvent oubliées
+Nous assistons aujourd'hui à un tournant historique. Le dollar, qui a longtemps dominé, semble être en déclin, tandis que l'or a perdu son rôle central. Nous sommes à l'aube d'un nouveau cycle monétaire, qui nous rappelle que les leçons de l'histoire sont souvent oubliées.
 
 ![image](assets/en/14.webp)
 
@@ -255,7 +255,8 @@ Une autre raison pour laquelle le bitcoin a attiré l'attention est l'émergence
 Nous pouvons conclure ce chapitre par une citation du prix Nobel F.A Hayek en 1984 :
 
 > "Je ne crois pas que nous devrions avoir à nouveau une bonne monnaie avant d'avoir retiré la chose des mains du gouvernement. Si nous ne pouvons pas les retirer violemment des mains du gouvernement, tout ce que nous pouvons faire, c'est d'introduire de manière sournoise ou détournée quelque chose qu'ils ne peuvent pas arrêter."
-> Pour en savoir plus sur les erreurs économiques et la liberté, nous vous invitons à découvrir notre cours ECO 102, qui retrace la vie et les idées de Frédéric Bastiat, un penseur français du 19ème siècle qui aurait certainement apprécié l'émergence de Bitcoin :
+
+Pour en savoir plus sur les erreurs économiques et la liberté, nous vous invitons à découvrir notre cours ECO 102, qui retrace la vie et les idées de Frédéric Bastiat, un penseur français du 19ème siècle qui aurait certainement apprécié l'émergence de Bitcoin :
 
 https://planb.network/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
@@ -285,21 +286,21 @@ Il est essentiel de comprendre que l'hyperinflation n'est pas le fruit du hasard
 
 Pour qu'il y ait hyperinflation, certains événements doivent se produire.
 
-Phase 1 - Perte de confiance
+**Phase 1 - Perte de confiance**
 
 - La centralisation du pouvoir monétaire facilite la création de monnaie et ses abus. Dans ce contexte, certains facteurs externes peuvent déclencher l'hyperinflation, généralement des guerres, des mesures sociales ou l'augmentation du prix de ressources clés comme le blé ou l'essence. Ainsi, une perte de confiance dans une monnaie peut survenir et les individus commencent à remettre en question l'origine de la monnaie et les avantages de la politique monétaire mandatée.
 
-Phase 2 - Effondrement de la monnaie et augmentation des prix
+**Phase 2 - Effondrement de la monnaie et augmentation des prix**
 
 - Lorsque les gouvernements perdent le contrôle de la confiance, les individus commencent à échanger leur monnaie contre une monnaie plus stable, comme cela s'est produit au Venezuela avec le dollar américain. Cette situation entraîne une hausse des prix, créant un cercle vicieux où les biens et les services deviennent de plus en plus chers. Pour répondre à ces besoins et corriger la politique monétaire, l'État imprime davantage d'argent, ce qui entraîne une inflation exponentielle.
 
-Phase 3 - Le cercle vicieux de la planche à billets
+**Phase 3 - Le cercle vicieux de la planche à billets**
 
-- Il faut donc de plus en plus de billets pour acheter des biens, ce qui entraîne une pénurie de papier-monnaie. Les gouvernements réagissent en imprimant davantage de billets, ce qui alimente encore plus l'inflation.
+- Il faut donc de plus en plus de billets pour acheter des biens, ce qui entraîne une pénurie de la monnaie-papier. Les gouvernements réagissent en imprimant davantage de billets, ce qui alimente encore plus l'inflation.
 
 ![image](assets/en/19.webp)
 
-Phase 4 - L'émergence d'une nouvelle monnaie
+**Phase 4 - L'émergence d'une nouvelle monnaie**
 
 - Une nouvelle monnaie est alors introduite pour remplacer l'ancienne, afin de briser le cycle de l'inflation en mettant en place des contrôles plus stricts qui n'existaient pas avec l'ancienne monnaie légale.
 
@@ -333,7 +334,7 @@ Le dernier billet mis en circulation fut un 100 millions de milliards de pengo (
 
 Jusqu'en 2000, le Zimbabwe était autosuffisant pour la quasi-totalité de ses besoins, à l'exception du pétrole.
 
-En 1997, le dollar zimbabwéen s'est effondré de plus de 72 % après que le gouvernement a accepté d'indemniser les anciens combattants pour un montant équivalent à 450 millions de dollars américains. Comme le gouvernement ne disposait pas d'une telle somme, il a eu recours à l'imprimerie. En 2005, l'inflation a atteint 586 %, mais le pic a été atteint à la mi-novembre 2008 avec un taux estimé à 79 600 000 000 % par mois.
+En 1997, le dollar zimbabwéen s'est effondré de plus de 72 % après que le gouvernement a accepté d'indemniser les anciens combattants pour un montant équivalent à 450 millions de dollars américains. Comme le gouvernement ne disposait pas d'une telle somme, il a eu recours à la planche à billets. En 2005, l'inflation a atteint 586 %, mais le pic a été atteint à la mi-novembre 2008 avec un taux estimé à 79 600 000 000 % par mois.
 
 En juin 2007, le gouvernement avait déjà réagi en imposant un contrôle des prix, mais cette mesure n'a eu aucune influence sur l'économie. Les magasins ont été littéralement "pillés" et les commerçants n'avaient plus les moyens de se réapprovisionner.
 
