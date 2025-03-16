@@ -33,7 +33,7 @@ Le protocole utilise des technologies sous-jacentes telles que la cryptographie,
 
 ### Un programme d'études complet mais accessible
 
-Dans ce cours, nous aborderons certains aspects monétaires du bitcoin, notamment la manière d'acheter et de vendre des bitcoins, de les stocker en toute sécurité dans des portefeuilles numériques et de les utiliser pour des transactions. Nous examinerons également le rôle des mineurs, qui sont essentiels pour créer de nouveaux bitcoins et sécuriser le réseau Bitcoin. Enfin, nous explorerons l'avenir du bitcoin et la manière dont la technologie Lightning Network peut améliorer les transactions en bitcoins.
+Dans ce cours, nous aborderons certains aspects monétaires du bitcoin, notamment la manière d'acheter et de vendre des bitcoins, de les stocker en toute sécurité dans des portefeuilles numériques et de les utiliser pour les transactions. Nous examinerons également le rôle des mineurs, qui sont essentiels pour créer de nouveaux bitcoins et sécuriser le réseau Bitcoin. Enfin, nous explorerons l'avenir du bitcoin et la manière dont la technologie Lightning Network peut améliorer les transactions en bitcoins.
 
 ![image](assets/en/01.webp)
 
@@ -67,12 +67,12 @@ Il est essentiel de comprendre que le bitcoin est un nouveau système monétaire
 - Chapitre 15 - Travailler pour Bitcoin
 - Chapitre 16 - L'hyper-bitcoinisation
 
-**Section 5 - Réseau d'éclairs**
+**Section 5 - Le Lightning Network**
 
-- Chapitre 17 - Introduction au réseau Lightning
-- Chapitre 18 - Cas d'utilisation du réseau Lightning
+- Chapitre 17 - Introduction au Lightning Network
+- Chapitre 18 - Cas d'utilisation du Lightning Network
 
-Avant de présenter la définition de la monnaie et sa fonction dans la société (chapitre 1), il convient de commencer par la genèse du bitcoin. Lancé en 2009, le bitcoin est une technologie relativement nouvelle qui ne ressemble à rien d'autre. Il est donc normal de ne pas tout comprendre d'un seul coup. En fait, tout comme lorsqu'on apprend à utiliser Internet ou à conduire une voiture, il n'est pas nécessaire de connaître tous les détails techniques tout de suite : on peut commencer par apprendre comment recevoir, payer et sécuriser ses fonds, et ensuite procéder par petites étapes pour l'étudier plus en profondeur.
+Avant de présenter la définition de la monnaie et sa fonction dans la société (chapitre 1), il convient de commencer par la genèse du Bitcoin. Lancé en 2009, le Bitcoin est une technologie relativement nouvelle qui ne ressemble à rien d'autre. Il est donc normal de ne pas tout comprendre d'un seul coup. En fait, tout comme lorsqu'on apprend à utiliser Internet ou à conduire une voiture, il n'est pas nécessaire de connaître tous les détails techniques tout de suite : on peut commencer par apprendre comment recevoir, payer et sécuriser ses fonds, et ensuite procéder par petites étapes pour l'étudier plus en profondeur.
 
 Après tout, nous n'en sommes qu'au début de son adoption, puisque nous avons dépassé la phase de décollage : vous avez juste le temps d'acquérir autant de connaissances que vous le souhaitez sur cette importante innovation.
 
@@ -102,21 +102,21 @@ Le mouvement cypherpunk, profondément enraciné dans l'activisme numérique et 
 
 - Le "Manifeste Cypherpunk" :
 
-rédigé par Eric Hughes en 1993, le "Cypherpunk Manifesto" affirme que la vie privée est un droit fondamental. L'auteur affirme que la capacité de communiquer librement et confidentiellement est essentielle pour une société libre. Le manifeste stipule ce qui suit : "Nous ne pouvons pas attendre des gouvernements, des entreprises ou d'autres grandes organisations sans visage qu'ils nous accordent le droit à la vie privée [...]. Nous devons défendre notre propre vie privée si nous voulons en avoir une".
+Rédigé par Eric Hughes en 1993, le "Cypherpunk Manifesto" affirme que la vie privée est un droit fondamental. L'auteur affirme que la capacité de communiquer librement et de manière privée est essentielle pour une société libre. Le manifeste stipule ce qui suit : "Nous ne pouvons pas attendre des gouvernements, des entreprises ou d'autres grandes organisations sans visage qu'ils nous accordent le droit à la vie privée [...]. Nous devons défendre notre propre vie privée si nous voulons en avoir une".
 
 - Le "Manifeste crypto-anarchiste" :
 
-rédigé par Timothy C. May en 1992, ce document explique comment l'utilisation de la cryptographie pourrait conduire à une ère d'anarchie cryptographique où les gouvernements seraient incapables d'interférer dans les affaires privées des citoyens. May envisage un avenir où les gens échangeraient anonymement des informations et de l'argent sans l'intervention d'un tiers.
+Rédigé par Timothy C. May en 1992, ce document explique comment l'utilisation de la cryptographie pourrait conduire à une ère d'anarchie cryptographique où les gouvernements seraient incapables d'interférer dans les affaires privées des citoyens. May envisage un avenir où les gens échangeraient anonymement des informations et de l'argent sans l'intervention d'un tiers.
 
 - La "Déclaration d'indépendance du cyberespace" :
 
-bien qu'il ne soit pas exclusivement cypherpunk, ce texte reflète les sentiments de nombreux participants au mouvement. Rédigé en 1996 par John Perry Barlow, il constitue une réponse à la réglementation croissante de l'internet par les gouvernements. La déclaration affirme que le cyberespace est un domaine distinct de la sphère physique et qu'il ne devrait pas être soumis aux mêmes lois. Comme elle l'indique, "nous n'avons pas de gouvernement élu, et nous ne sommes pas près d'en avoir un".
+Bien qu'il ne soit pas exclusivement cypherpunk, ce texte reflète les sentiments de nombreux participants au mouvement. Rédigé en 1996 par John Perry Barlow, il constitue une réponse à la réglementation croissante de l'internet par les gouvernements. La déclaration affirme que le cyberespace est un domaine distinct de la sphère physique et qu'il ne devrait pas être soumis aux mêmes lois. Comme elle l'indique, "nous n'avons pas de gouvernement élu, et nous ne sommes pas près d'en avoir un".
 
 ### Les prédécesseurs du bitcoin
 
 Avant l'émergence du bitcoin, il y a eu plusieurs tentatives de création d'une monnaie numérique. Par exemple, David Chaum a introduit le concept de "monnaie électronique anonyme" avec son projet "DigiCash" dans les années 1980. Malheureusement, en raison de diverses contraintes, DigiCash n'a jamais connu d'essor.
 
-Un autre précurseur important est la "monnaie B" de Wei Dai. Bien qu'il n'ait jamais été mis en œuvre, il présentait l'idée d'une monnaie numérique anonyme où la détection des fraudes était effectuée par une communauté d'évaluateurs plutôt que par une autorité centrale.
+Un autre précurseur important est la "b-money" de Wei Dai. Bien qu'il n'ait jamais été mis en œuvre, il présentait l'idée d'une monnaie numérique anonyme où la détection des fraudes était effectuée par une communauté d'évaluateurs plutôt que par une autorité centrale.
 
 L'image ci-dessous illustre clairement l'évolution du mouvement à travers ses nombreuses innovations technologiques.
 
@@ -124,13 +124,13 @@ L'image ci-dessous illustre clairement l'évolution du mouvement à travers ses 
 
 C'est dans cet environnement fertile que le mystérieux Satoshi Nakamoto a publié le livre blanc du Bitcoin en 2008. Dans ce document, il combine plusieurs idées issues du mouvement cypherpunk, telles que la preuve de travail et les horodatages cryptographiques, pour créer une monnaie numérique décentralisée et résistante à la censure.
 
-Mais le bitcoin est plus que cela : il représente l'accomplissement des idéaux du cypherpunk. Au-delà de sa technologie, il symbolise une révolution contre les systèmes financiers traditionnels et offre une alternative basée sur la transparence, la décentralisation et la souveraineté individuelle.
+Mais le Bitcoin est plus que cela : il représente l'accomplissement des idéaux du cypherpunk. Au-delà de sa technologie, il symbolise une révolution contre les systèmes financiers traditionnels et offre une alternative basée sur la transparence, la décentralisation et la souveraineté individuelle.
 
 ### Conclusion
 
 La préhistoire de Bitcoin est profondément ancrée dans le mouvement cypherpunk et la quête collective d'une plus grande liberté à l'ère numérique. En combinant les principes de cryptographie, de décentralisation et d'intégrité, le bitcoin est devenu bien plus qu'une monnaie. Il est en fait le produit d'une révolution philosophique et technologique qui continue à remodeler notre monde.
 
-Le bitcoin est donc un protocole qui s'étend sur de longues périodes et qui nous incite à nous interroger sur notre rapport à l'énergie, au temps et à l'argent.
+Le Bitcoin est donc un protocole qui s'étend sur de longues périodes et qui nous incite à nous interroger sur notre rapport à l'énergie, au temps et à l'argent.
 
 Mais le bitcoin est-il une "vraie" monnaie ? Pour le savoir, il faut d'abord comprendre le concept de monnaie et ses différentes formes, que nous explorerons dans le chapitre suivant.
 
@@ -169,9 +169,9 @@ Sa fonction dans notre monde est difficile à reproduire artificiellement. En ef
 
 Pour ces raisons, l'or en tant que monnaie est le résultat de 4 000 ans de darwinisme monétaire basé sur les fonctions aristotéliciennes suivantes :
 
-- Réserve de valeur\*\* : la monnaie peut être utilisée pour transférer du pouvoir d'achat dans le futur, elle doit donc être un matériau durable ;
-- Moyen d'échange\*\* : la monnaie peut être utilisée pour échanger des biens et des services au lieu de faire du troc, ce qui permet d'éviter la coïncidence des besoins entre les commerçants ;
-- Unité de compte\*\* : la monnaie nous permet également de comparer la valeur de différents biens afin de mieux comprendre leur utilité relative.
+- **Réserve de valeur** : la monnaie peut être utilisée pour transférer du pouvoir d'achat dans le futur, elle doit donc être un matériau durable ;
+- **Moyen d'échange** : la monnaie peut être utilisée pour échanger des biens et des services au lieu de faire du troc, ce qui permet d'éviter la coïncidence des besoins entre les commerçants ;
+- **Unité de compte** : la monnaie nous permet également de comparer la valeur de différents biens afin de mieux comprendre leur utilité relative.
 
 ![image](assets/en/08.webp)
 
@@ -181,7 +181,7 @@ Pour ces raisons, l'or en tant que monnaie est le résultat de 4 000 ans de darw
 
 ### Les caractéristiques de la monnaie
 
-L'or répond idéalement aux critères d'une monnaie efficace : sa rareté naturelle lui confère de la valeur, tandis que ses propriétés chimiques lui permettent de ne pas s'éroder avec le temps. Ces caractéristiques ont fait de l'or une excellente **magasin de valeur**, mais pas une monnaie courante, car cette forme de monnaie n'est pas facilement divisible ou transportable sur de longues distances. Dans un monde globalisé et numérique, l'or peine à suivre le rythme et a besoin d'une entité centrale pour le rendre divisible et facilement échangeable (c'est-à-dire par le biais de pièces frappées).
+L'or répond idéalement aux critères d'une monnaie efficace : sa rareté naturelle lui confère de la valeur, tandis que ses propriétés chimiques lui permettent de ne pas s'éroder avec le temps. Ces caractéristiques ont fait de l'or une excellente **réserve de valeur**, mais pas une monnaie courante, car cette forme de monnaie n'est pas facilement divisible ou transportable sur de longues distances. Dans un monde globalisé et numérique, l'or peine à suivre le rythme et a besoin d'une entité centrale pour le rendre divisible et facilement échangeable (c'est-à-dire par le biais de pièces frappées).
 
 A l'inverse, les monnaies fiduciaires étatiques (fiat) sont facilement utilisables, mais sont constamment dévaluées par les entités qui les contrôlent (rois, banques centrales, empereurs, dictateurs).
 
@@ -189,9 +189,9 @@ Pour mieux expliquer ce concept, nous allons explorer les caractéristiques d'un
 
 ![image](assets/en/11.webp)
 
-- Fongibilité\*\*, c'est-à-dire qu'il est interchangeable avec une autre unité de même nature sans perte de valeur ;
-- Divisibilité\*\*, car il peut être divisé en unités plus petites pour faciliter les transactions de volumes variables ;
-- Liquidité\*\*, ce qui signifie qu'il est facilement convertible en biens ou en services.
+- **Fongibilité**, c'est-à-dire qu'il est interchangeable avec une autre unité de même nature sans perte de valeur ;
+- **Divisibilité**, car il peut être divisé en unités plus petites pour faciliter les transactions de volumes variables ;
+- **Liquidité**, ce qui signifie qu'il est facilement convertible en biens ou en services.
 
 Pour répondre à ces critères, la monnaie a évolué historiquement en prenant différentes mesures :
 
@@ -201,7 +201,7 @@ Pour répondre à ces critères, la monnaie a évolué historiquement en prenant
 
 Les monnaies évoluent encore aujourd'hui, adaptant leurs formes pour répondre à différents cas d'utilisation. Comme nous l'avons dit, si l'or est une excellente réserve de valeur, il n'est plus adapté à l'économie mondialisée actuelle. De même, les monnaies fiduciaires telles que le dollar et l'euro sont très liquides et facilement transportables parce qu'elles sont désormais essentiellement numériques, mais leur valeur est constamment diminuée par l'inflation monétaire.
 
-D'autre part, le bitcoin offre de nouvelles possibilités. Ses propriétés, telles que l'offre strictement limitée, en font une excellente réserve de valeur. De plus, en tant que monnaie internet neutre, il sert de **moyen d'échange** viable qui transcende les frontières. Cependant, il n'est toujours pas largement accepté dans le commerce aujourd'hui, malgré son [adoption constante] (https://btcmap.org/map).
+D'autre part, le bitcoin offre de nouvelles possibilités. Ses propriétés, telles que l'offre strictement limitée, en font une excellente réserve de valeur. De plus, en tant que monnaie d'internet neutre, il sert de **moyen d'échange** viable qui transcende les frontières. Cependant, il n'est toujours pas largement accepté dans le commerce aujourd'hui, malgré son adoption constante : https://btcmap.org/map.
 
 ## Monnaies fiduciaires
 
