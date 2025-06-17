@@ -1,0 +1,32 @@
+id: 80a09ef9-c838-44f3-b0aa-be09831e10c5
+
+name: Dada Devs
+
+address_line_1: Nairobi, Kenya
+address_line_2:
+address_line_3: 
+
+links:
+  website: https://dadadevs.com/
+  twitter: https://x.com/dadadevs
+  Github: 
+  youtube: 
+
+category: education
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2025-06-17
+    urgency: 
+    contributor_names:
+      - Gloirew
+    reward: 0
+
+tags:
+  - training
+  - bitcoin
+  - technology
+
+contributor_names:
+  - Gloirew
