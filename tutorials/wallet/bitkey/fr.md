@@ -1,6 +1,6 @@
 ---
 name: Bitkey
-description: Le hardware wallet seedless
+description: Le hardware wallet seedless (ihclqjvkqih)
 ---
 ![cover](assets/cover.webp)
 
